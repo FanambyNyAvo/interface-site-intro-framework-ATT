@@ -1,3 +1,4 @@
+# EXAMEN DU QUESTION OUVERTE INTRODUCTION FRAMEWORK ANGULAR
 # Interface AT&T — Community Forums Sunset
 
 Projet de conception d'interface d'accueil réalisé en **Angular**, dans le cadre du cours *Introduction aux Frameworks* (L3 GLBD - UPEF).
@@ -7,15 +8,13 @@ Reproduction fidèle de la page :
 
 ---
 
-## 🎯 Objectif du projet
+##  Objectif du projet
 
 Concevoir, en Angular, l'interface d'accueil d'un site web existant parmi une liste imposée. Le site choisi pour ce projet est la page **"Community Forums Sunset"** d'AT&T.
 
-Le projet se concentre sur la **conception visuelle** de l'interface (HTML/SCSS structuré en composants Angular), sans logique métier ni back-end.
-
 ---
 
-## 🛠️ Stack technique
+## Stack technique
 
 - **Angular** (dernière version stable, composants **standalone**)
 - **SCSS** pur pour le style (aucune librairie UI type Angular Material)
@@ -23,7 +22,7 @@ Le projet se concentre sur la **conception visuelle** de l'interface (HTML/SCSS 
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 src/
@@ -48,7 +47,7 @@ public/
 
 ---
 
-## 🎨 Choix de conception
+## Choix de conception
 
 - **Pas d'Angular Material** : le style est entièrement custom en SCSS, pour coller au plus près du design réel d'AT&T.
 - **Menu de navigation** : uniquement visuel (pas de logique d'ouverture/fermeture des sous-menus).
@@ -58,7 +57,7 @@ public/
 
 ---
 
-## 🚀 Lancer le projet
+## Lancer le projet
 
 ```bash
 npm install
@@ -69,12 +68,11 @@ Puis ouvrir [http://localhost:4200](http://localhost:4200) dans le navigateur.
 
 ---
 
-## ⚠️ Remarque technique
+## Remarque technique
 
 Ce projet utilise la syntaxe Sass moderne `@use` (plutôt que `@import`, dépréciée) pour l'import des variables SCSS entre fichiers.
 
 ---
 
 ## 👤 Auteur
-
-Projet réalisé par **Petou** — L3 GLBD, UPEF.
+ RAKOTOMIHAJA Fanamby Ny Avo — L3 GLBD, UPEF.
