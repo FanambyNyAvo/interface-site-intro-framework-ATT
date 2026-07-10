@@ -1,0 +1,11 @@
+<section class="help-section">
+  <h2>How can we help you today?</h2>
+  <p>We've put together a list of places where you can find most anything. Or, you can use search to find something specific.</p>
+
+  <div class="help-grid">
+    <a href="#" class="help-item" *ngFor="let item of helpLinks">
+      <span class="help-icon">{{ item.icon }}</span>
+      <span class="help-label">{{ item.label }}</span>
+    </a>
+  </div>
+</section>

@@ -1,0 +1,22 @@
+<footer class="footer">
+  <div class="footer-top">
+    <img src="assets/att-logo.svg" alt="AT&T" height="28" class="logo-white" />
+    <div class="social-icons">
+      <span *ngFor="let icon of socialIcons">{{ icon }}</span>
+    </div>
+  </div>
+
+  <div class="footer-links">
+    <div class="footer-col" *ngFor="let col of columns">
+      <h4>{{ col.title }}</h4>
+      <a href="#" *ngFor="let link of col.links">{{ link }}</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="legal-links">
+      <a href="#" *ngFor="let link of legalLinks">{{ link }}</a>
+    </div>
+    <p>© 2026 AT&T Intellectual Property. All rights reserved.</p>
+  </div>
+</footer>

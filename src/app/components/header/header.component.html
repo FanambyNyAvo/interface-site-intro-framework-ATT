@@ -1,0 +1,28 @@
+<div class="top-bar">
+  <div class="top-bar__left">
+    <a href="#" class="active">Personal</a>
+    <a href="#">Business</a>
+  </div>
+  <div class="top-bar__right">
+    <a href="#">Find a store</a>
+    <a href="#">Ver en español</a>
+  </div>
+</div>
+
+<header class="main-header">
+  <a href="#" class="logo">
+    <img src="assets/att-logo.svg" alt="AT&T" height="32" />
+  </a>
+
+  <nav class="main-nav">
+    <a href="#" *ngFor="let item of menuItems">
+      {{ item }} <span class="chevron">▾</span>
+    </a>
+  </nav>
+
+  <div class="header-icons">
+    <span class="icon">🔍</span>
+    <span class="icon">🛒</span>
+    <span class="icon">👤 ▾</span>
+  </div>
+</header>

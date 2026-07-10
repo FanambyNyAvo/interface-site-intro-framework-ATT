@@ -1,0 +1,43 @@
+@use '../../../styles/variables' as *;
+
+.promo-card {
+  background: $bg-light-blue;
+  border-radius: 4px;
+  padding: 24px;
+  flex: 1;
+
+  h3 { font-size: 18px; margin-bottom: 8px; }
+  p { font-size: 14px; margin-bottom: 12px; }
+
+  ul {
+    list-style: none;
+    margin-bottom: 12px;
+
+    li {
+      font-size: 14px;
+      margin-bottom: 6px;
+      padding-left: 22px;
+      position: relative;
+
+      &::before {
+        content: '✓';
+        color: $att-blue;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+      }
+    }
+  }
+
+  .note { font-size: 11px; color: $text-gray; margin-bottom: 16px; }
+}
+
+.cta-btn {
+  background: $att-blue-dark;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}

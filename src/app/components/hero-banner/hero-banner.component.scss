@@ -1,0 +1,12 @@
+@use '../../../styles/variables' as *;
+
+.hero {
+  background: $bg-light-gray;
+  text-align: center;
+  padding: 48px 20px;
+  margin: 0 40px;
+  border-radius: 4px;
+
+  h1 { font-size: 28px; margin-bottom: 12px; }
+  p { font-size: 14px; color: $text-gray; }
+}

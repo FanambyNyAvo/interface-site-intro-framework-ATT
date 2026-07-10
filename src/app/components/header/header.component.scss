@@ -1,0 +1,38 @@
+@use '../../../styles/variables' as *;
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 40px;
+  font-size: 12px;
+  border-bottom: 1px solid #eee;
+
+  &__left a { margin-right: 16px; font-weight: bold; &.active { color: $att-blue-dark; } }
+  &__right a { margin-left: 16px; color: $att-blue-dark; }
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 40px;
+}
+
+.main-nav {
+  display: flex;
+  gap: 32px;
+
+  a {
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+}
+
+.header-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
